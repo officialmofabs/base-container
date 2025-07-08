@@ -1,5 +1,5 @@
 {
-    "name": "project-dev",
+    "name": "base-container",
     "dockerComposeFile": [
         "docker-compose.yml"
     ],

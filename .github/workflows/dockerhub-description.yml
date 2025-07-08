@@ -14,7 +14,7 @@ jobs:
       - name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v3
         with:
-          username: qmcgaw
+          username: officialmofabs
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: officialmofabs/base-container
           short-description: Base development container for Visual Studio Code, used as base image by other images
